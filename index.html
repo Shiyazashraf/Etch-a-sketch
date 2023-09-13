@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch a sketch</title>
+</head>
+<body>
+    <h1 class="text">Etch-A-Sketch</h1>
+    <div class="grid-container"></div>
+    
+    <div class="button-container">
+        <button type="button" id="color">Color</button>
+        <button type="button" id="reset">Reset</button>
+        <button type="button" id="black">black</button>
+        <button type="button" id="remove-grid">toggle grid Lines</button>
+    </div>
+
+    <p class="text">select canvas size</p>
+    <div class="input-container">
+    <input type="text" id="pixel-input" placeholder="Pixel value #eg : 64" value="16">
+    <button type="button" id="submit-button">submit</button>
+    </div>
+    <p class="text" id="warning-text"></p>
+    <script src="script.js"></script>
+</body>
+</html>
